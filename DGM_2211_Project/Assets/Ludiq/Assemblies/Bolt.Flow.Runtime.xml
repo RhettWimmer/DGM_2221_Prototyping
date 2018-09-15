@@ -52,6 +52,27 @@
             Removes unused entries from cached compiled expression.
             </summary>
         </member>
+        <member name="T:Bolt.CreateStruct">
+            <summary>
+            Creates a struct with its default initializer.
+            </summary>
+        </member>
+        <member name="P:Bolt.CreateStruct.enter">
+            <summary>
+            The entry point to create the struct. You can
+            still get the return value without connecting this port.
+            </summary>
+        </member>
+        <member name="P:Bolt.CreateStruct.exit">
+            <summary>
+            The action to call once the struct has been created.
+            </summary>
+        </member>
+        <member name="P:Bolt.CreateStruct.output">
+            <summary>
+            The created struct.
+            </summary>
+        </member>
         <member name="T:Bolt.SelectOnFlow">
             <summary>
             Selects a value from a set by matching it with an input flow.
