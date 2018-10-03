@@ -5201,6 +5201,8 @@ GameObject:
   - component: {fileID: 647650168}
   - component: {fileID: 647650170}
   - component: {fileID: 647650171}
+  - component: {fileID: 647650173}
+  - component: {fileID: 647650172}
   m_Layer: 9
   m_Name: Cube_(20)
   m_TagString: Platform
@@ -5292,6 +5294,35 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300050, guid: dd26aea65f4f51346904d66c09d7f865, type: 3}
+--- !u!114 &647650172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 647650166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 8b79c86de68b5c6478a689a80b0c7b98, type: 2}
+--- !u!114 &647650173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 647650166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &662498197
 GameObject:
   m_ObjectHideFlags: 0
@@ -6386,6 +6417,8 @@ GameObject:
   - component: {fileID: 782796136}
   - component: {fileID: 782796135}
   - component: {fileID: 782796137}
+  - component: {fileID: 782796139}
+  - component: {fileID: 782796138}
   m_Layer: 9
   m_Name: Secret_Cube
   m_TagString: Platform
@@ -6460,6 +6493,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0000002, y: 1, z: 3.0000007}
   m_Center: {x: 0.5000001, y: 11.5, z: 2.5000005}
+--- !u!114 &782796138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 782796133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 09a2087470a687e4d9d879a7f56e0321, type: 2}
+--- !u!114 &782796139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 782796133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &782804120
 GameObject:
   m_ObjectHideFlags: 0
@@ -19117,7 +19179,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh6580
+  m_Name: pb_Mesh6566
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
