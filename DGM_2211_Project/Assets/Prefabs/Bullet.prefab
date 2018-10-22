@@ -26,12 +26,13 @@ GameObject:
   - component: {fileID: 64656596468294920}
   - component: {fileID: 114862378975053394}
   - component: {fileID: 114857149425054184}
+  - component: {fileID: 54736041780725164}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4290945681313812
 Transform:
@@ -88,6 +89,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1484529007592746}
   m_Mesh: {fileID: 0}
+--- !u!54 &54736041780725164
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484529007592746}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 2
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!64 &64656596468294920
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -98,7 +114,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 0}
