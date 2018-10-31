@@ -1,0 +1,9 @@
+
+First hit: Reset at checkpoint, remove heart
+
+Second hit: Reset checkpoint, remove heart
+
+
+
+UI:
+	*Hearts
