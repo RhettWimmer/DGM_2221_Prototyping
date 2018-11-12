@@ -5511,7 +5511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Jump","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Direction","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Jump","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Direction","value":{"$content":5000.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!54 &556777277
 Rigidbody:
@@ -5534,7 +5534,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 556777270}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
