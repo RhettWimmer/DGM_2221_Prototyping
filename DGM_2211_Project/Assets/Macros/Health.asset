@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Health
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-142.9461,"y":-79.29236},"zoom":1.0,"elements":[],"$version":"A"}}'
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-742.3961,"y":-744.2097},"zoom":1.0,"elements":[{"kind":"Object","defaultValues":{"name":{"$content":"Health","$type":"System.String"},"object":null},"position":{"x":-544.0,"y":-875.0},"guid":"c12faa01-d5c5-4bcd-8b30-f937d8193160","$version":"A","$type":"Bolt.SetVariable","$id":"9"},{"type":"System.Int32","value":{"$content":0,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-847.0,"y":-689.0},"guid":"1e957caf-effc-419f-b7c8-4178ac12b7ea","$version":"A","$type":"Bolt.Literal","$id":"11"},{"inputCount":2,"defaultValues":{},"position":{"x":-704.0,"y":-805.0},"guid":"bc7da7de-867a-47e7-95ed-c3d7e75cf61f","$version":"A","$type":"Bolt.ScalarMaximum","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Health","$type":"System.String"},"object":null},"position":{"x":-1052.0,"y":-749.0},"guid":"4401c319-4aeb-4da5-a23d-afac9d5ad354","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"defaultValues":{"minuend":{"$content":1.0,"$type":"System.Single"},"subtrahend":{"$content":1.0,"$type":"System.Single"}},"position":{"x":-868.0,"y":-802.0},"guid":"846a7dfb-739f-42c5-800a-948064284622","$version":"A","$type":"Bolt.ScalarSubtract","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"maximum","destinationUnit":{"$ref":"9"},"destinationKey":"input","guid":"c5ad87e4-f142-4fb6-bdf0-29ed17a68f5e","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"1","guid":"6e99b0ad-8ab4-45f6-86e7-f194b5820b27","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"difference","destinationUnit":{"$ref":"13"},"destinationKey":"0","guid":"e249180f-fca4-4560-b061-332e3178791d","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"minuend","guid":"85a10cd4-6922-4e9b-913c-b7423a7a1dc1","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
     _objectReferences: []
