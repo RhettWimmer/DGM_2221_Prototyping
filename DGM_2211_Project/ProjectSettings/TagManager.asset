@@ -8,6 +8,9 @@ TagManager:
   - Bounce
   - Eyes
   - Death
+  - TNTTag
+  - Trig
+  - Bullet
   layers:
   - Default
   - TransparentFX
