@@ -1,9 +1,0 @@
-
-First hit: Reset at checkpoint, remove heart
-Second hit: Reset checkpoint, remove heart
-
-	normal death code + check int at 3 hearts
-
-Third hit:  Reset level entirely at first spawn
-
-	death code that restarts level
