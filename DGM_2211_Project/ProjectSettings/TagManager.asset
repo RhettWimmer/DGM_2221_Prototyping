@@ -11,6 +11,8 @@ TagManager:
   - TNTTag
   - Trig
   - Bullet
+  - Key
+  - KeyIm
   layers:
   - Default
   - TransparentFX
